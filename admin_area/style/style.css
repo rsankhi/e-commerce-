@@ -1,0 +1,271 @@
+/* global style */
+::-webkit-scrollbar{
+    width:0;
+    background-color: none;
+	height: 0;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#01124b,#00030d);
+    border-radius:5px;
+}
+body{
+    margin-top: 100px;
+    padding: 0;
+	background-color: #efeded;
+    
+}
+@media(min-width:768px){
+    body{
+        margin-top: 50px;
+    }
+}
+
+#wrapper{
+    padding-left: 0;
+    
+    
+    
+}
+#page-wrapper{
+    padding: 0px;
+    width: 100%;
+    background-color: #F9F9F9;
+   
+    
+}
+@media (min-width:768px){
+    #wrapper{
+    padding-left: 0;
+    
+}
+#page-wrapper{
+    padding:10px;
+    
+    
+    
+}
+}
+/*top navigation*/
+.navbar-header{
+    height: 50px;
+    text-align: center;
+   
+}
+.navbar-header .navbar-brand{
+    color: #fff;
+  
+    padding-top: 15px;
+    text-align: center;
+   
+}
+
+.top-nav{
+    padding: 0 10px;
+    
+}
+.top-nav>li{
+    display: inline-block;
+    float: left;
+    max-width:400px;
+    
+}
+.top-nav>li>a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #fff;
+    max-width: 430px;
+    
+}
+
+.top-nav>li>a:hover,.top-nav>li>a:target{
+   color: white;
+    background: rgb(3, 10, 157);
+    
+}
+.top-nav>li>a:focus{
+     color: black;
+    background: rgb(138, 142, 234);
+}
+
+/* sidebar nav */
+
+@media(min-width:768px){
+    .sidebar-nav{
+        position: fixed;
+        top: 51px;
+        left: 0;
+        width:255px;
+        border-radius: 0;
+        overflow-y:auto;
+        background-color: #222;
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+        float: left;
+        
+    }
+    .sidebar-nav>li:hover{
+        background: #8d0707;
+        border-radius: 2px;
+    }
+    .sidebar-nav>li>a{
+        width: 255px;
+        text-align: ;
+        font-size: 16px;
+        padding: 18px;
+        letter-spacing: .5px;
+      
+    }
+    .sidebar-nav li a:hover
+    .sidebar-nav li a:focus{
+        outline: none;
+        background-color: #000;
+        
+        
+    }
+}
+
+.sidebar-nav >li>ul{
+    padding: 0;
+   
+    
+}
+.sidebar-nav>li>ul>li>a{
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #999;
+    font-size: 13px;
+    
+    }
+
+.sidebar-nav>li>ul>li>a:hover{
+    color: #fff;
+}
+.sidebar-nav>li>ul{
+    background:#000000; 
+    color:#fff; 
+}
+.sidebar-nav>li>ul>li:hover{
+    background: #130672;
+}
+
+
+/* dashbord */
+@media(min-width:768px){
+    .col-lg-10{
+            padding-left:30px;
+     
+    }
+}
+.col-lg-10 .breadcrumb{
+    box-shadow:.1px .1px 5px rgba(0, 0, 0, 0.17)    ;
+}
+.huge{
+    font-size: 40px;
+    line-height: normal;
+}
+.panel-green > .panel-heading{
+    color:#fff;
+    background-color: #5cd85c;
+}
+.panel-green > a{
+    color:#5cd85c;
+}
+.panel-green > a > .panel-footer {
+    border:.5px solid #5cd85c;
+}
+.panel-yellow > .panel-heading{
+    color:#fff;
+    background-color: #f0ad4e;
+}
+.panel-yellow > a{
+    color:#f0ad4e;
+}
+.panel-yellow > a > .panel-footer {
+    border:.5px solid #f0ad4e;
+}
+.panel-red> .panel-heading{
+    color:#fff;
+    background-color: #d9534f;
+}
+.panel-red > a{
+    color:#d9534f;
+}
+.panel-red > a > .panel-footer {
+    border:.5px solid #d9534f;
+}
+
+
+/* products */
+.box{
+    background:#fff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    padding: 20px;
+    box-shadow: 0 1px 5p rgba(0,0,0,0.1);
+
+}
+.box .box-header{
+    background: #f7f7f7;
+    margin: -20px -20px 20px;
+    padding: 20px;
+    border-bottom:solid 1px #333333;
+    
+}
+.product img{
+    min-height: 100px;
+    max-height: 100px;
+   
+}
+ .product{
+    background: #fff;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+     min-height:370px;
+    max-height: 370px;
+   
+    
+}
+.img-responsive{
+    margin:0 auto;
+}
+.product .text p.price{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-family:monospace;
+}
+.product .text .buttons{
+    clear: both;
+    text-align: center;
+ 
+}
+ .product .text h4{
+    text-align: center;
+    font-size: 18px;
+    min-height: 35px;
+    max-height: 35px;
+    overflow: hidden;
+    
+}
+
+ .product .text h3 a{
+    color: rgb(87, 84, 84);
+    
+}
+.product .text{
+    padding: 10px 10px 0px;
+    
+}
+ .product .text .buttons .btn{
+    margin-bottom: 10px; 
+}
+
+
+
+
+
+
